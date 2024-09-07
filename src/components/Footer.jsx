@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div className="footer">
-            <span className="footer-text">© 2024 Your Company Name. All rights reserved.</span>
+            <span className="footer-text">2021 © RedStar Hospital Template By <span className='redstartheme'>Redstartheme</span></span>
         </div>
     );
 };

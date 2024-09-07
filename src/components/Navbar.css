@@ -1,191 +1,10 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-
-.logo {
-    margin-left: 0px; 
-    height: 60px;
-    padding-left: 0px; 
-    width: 235px;
-}
-
-.logo-div {
-    margin-left: 0px; 
-    height: 60px;
-    padding-left: 0px;
-}
-
-.custom-typography {
-    font-family: 'Font Awesome 5 Free';
-    font-size: 35px;
-    font-weight: 900;
-    line-height: 35px;
-    text-align: left;
-}
-
-.custom-text {
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-    font-weight: 500;
-    line-height: 42.5px;
-    text-align: left;
-    color: #FFFFFF;
-    margin-left: 10px;
-}
-
-.bars {
-    height: 20px;
-    width: 20px;
-}
-
-.flag {
-    width: 16px;
-    height: 11px;
-}
-
-.english {
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    color: #000000;
-    margin-left: 8px;
-}
-
-.flag-div {
-    display: flex;
-    align-items: center;
-}
-
-.notification-div {
-    cursor: pointer;
-}
-
-.bell {
-    width: 20px;
-    height: 20px;
-    position: relative;
-}
-
-.notification {
-    width: 19.05px;
-    height: 18px;
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    padding: 0px 5.8px 2px 6px;
-    border-radius: 12px;
-    background: #FF7400;
-    color: white;
-    font-size: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px 1px 2px 0px #0000002E, 0px 1px 3px 0px #0000001A;
-}
-
-.mail-div {
-    cursor: pointer;
-}
-
-.envelope {
-    width: 20px;
-    height: 20px;
-    position: relative;
-}
-
-.mail {
-    width: 19.05px;
-    height: 18px;
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    padding: 0px 5.8px 2px 6px;
-    border-radius: 12px;
-    background: #6677EF;
-    color: white;
-    font-size: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px 1px 2px 0px #0000002E, 0px 1px 3px 0px #0000001A;
-}
-
-.image {
-    width: 29px;
-    height: 29px;
-    border-radius: 50%;
-}
-
-.img-text {
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    color: #000000;
-    margin-left: 8px;
-}
-
-.dots {
-    width: 32px;
-    height: 32px;
-}
-
-@media (max-width: 768px) {
-    .flex-1 {
-        display: none;
-    }
-
-    .flag-div .english {
-        display: none;
-    }
-
-    .img-text {
-        display: none;
-    }
-}
-
-@media (max-width: 640px) {
-
-    .flag-div,
-    .notification-div,
-    .mail-div,
-    .image,
-    .dots {
-        transform: scale(0.8);
-    }
-
-    @media (max-width: 768px) {
-        .custom-typography {
-          padding-left: 8px;
-        }
-      
-        .custom-text {
-          left: 40px;
-        }
-      }
-
-    .flag-div {
-        margin-right: -12px;
-    }
-
-    .notification,
-    .mail {
-        top: -8px;
-        right: -8px;
-    }
-} */
-
-
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 .logo {
     margin-left: 0;
-    /* Ensure no left margin */
     height: 60px;
     padding-left: 0;
-    /* Ensure no left padding */
     width: 235px;
-    /* Ensure full width for the blue box */
 }
 
 .logo-div {
@@ -193,12 +12,9 @@
     height: 60px;
     padding-left: 0;
     width: 235px;
-    /* Ensure full width for the blue box */
     background: #6673FC;
-    /* Adjust background color if necessary */
     display: flex;
     align-items: center;
-    /* Align content vertically */
 }
 
 .custom-typography {
@@ -217,6 +33,19 @@
     text-align: left;
     color: #FFFFFF;
     margin-left: 10px;
+}
+
+.placeholder {
+    width: 58.08px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    background: #C0C0C0;
 }
 
 .bars {
@@ -345,12 +174,10 @@
 
     .custom-typography {
         padding-left: 8px;
-        /* Adjust padding for smaller screens */
     }
 
     .custom-text {
         left: 40px;
-        /* Adjust the position for smaller screens */
     }
 
     .notification,

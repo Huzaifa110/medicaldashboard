@@ -1,56 +1,29 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-} */
-
-
-
 .app-container {
   display: flex;
-  min-height: 100vh; /* Ensure the container takes up at least the full viewport height */
   flex-direction: column;
-  padding-bottom: 62.09px; /* Space for footer */
+  height: 100vh;
 }
 
-/* Optional: Adjust the main content if necessary */
+.app-main {
+  display: flex;
+  flex-grow: 1;
+  background-color: #EAEEF3;
+}
+
+.sidebar {
+  width: 235px;
+  height: calc(100vh - 120px);
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
 .main-content {
-  flex: 1; /* Allow the main content to expand and fill available space */
+  flex-grow: 1;
+  margin-left: 235px;
+  padding: 20px;
+  background-color: #EAEEF3;
 }
